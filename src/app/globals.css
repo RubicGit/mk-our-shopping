@@ -20,6 +20,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 body {
+  background: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-sans);
 }

@@ -5,13 +5,13 @@ import NavBar from "@/components/NavBar";
 import { ThemeProvider } from "@/components/ThemeContext";
 
 const openSans = Open_Sans({
-  variable: "--font-open-sans",
   subsets: ["latin"],
+  variable: "--font-open-sans",
 });
 
 const sourceCodePro = Source_Code_Pro({
-  variable: "--font-source-code-pro",
   subsets: ["latin"],
+  variable: "--font-source-code-pro",
 });
 
 export const metadata: Metadata = {

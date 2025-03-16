@@ -63,7 +63,7 @@ const NavBar: React.FC<NavBarProps> = ({ loggedIn }) => {
             </nav>
 
             {showPopupNav && (
-                <nav className="fixed top-0 left-0 right-0 my-6 mx-auto flex justify-between items-center gap-10 p-6 w-[97%] bg-bg dark:bg-bg-dark text-text dark:text-text-darkext shadow-lg z-50 rounded-2xl">
+                <nav className="fixed top-0 left-0 right-0 my-6 mx-auto flex justify-between items-center gap-10 p-6 w-[97%] bg-bg dark:bg-bg-dark text-text dark:text-text-dark shadow-lg z-50 rounded-2xl">
                     <div className="flex gap-8 items-center">
                         <Logo isDarkMode={theme === 'dark'} />
                         <div className="flex gap-4 text-text dark:text-text-dark">
