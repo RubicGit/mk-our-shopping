@@ -1,11 +1,13 @@
+/* Tailwind CSS v4 syntax */
 @import "tailwindcss";
+@import "tailwindcss/preflight";
 
 @theme {
-  --color-primary: #39C676;
+  --color-primary: #39c676;
   --color-secondary: #7acddc;
   --color-accent: #2f7fb1;
-  --color-text: #06180E;
-  --color-bg: #F4FBF5;
+  --color-text: #06180e;
+  --color-bg: #f4fbf5;
 
   --color-primary-dark: #39c676;
   --color-secondary-dark: #237685;
@@ -13,8 +15,8 @@
   --color-text-dark: #e7f9ef;
   --color-bg-dark: #040b05;
 
-  --font-sans: 'Open Sans', Arial, Helvetica, sans-serif;
-  --font-mono: 'Source Code Pro', monospace;
+  --font-sans: "Open Sans", Arial, Helvetica, sans-serif;
+  --font-mono: "Source Code Pro", monospace;
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
@@ -29,3 +31,5 @@ body {
   background: rgba(0, 122, 255, 0.3); /* macOS-like selection color */
   color: white;
 }
+
+/* Your custom CSS here */

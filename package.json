@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"npm run dev:css\" \"next dev\"",
-    "dev:css": "tailwindcss -i src/app/globals.css -o src/app/tailwind.css --watch",
-    "build": "npm run build:css && next build",
-    "build:css": "NODE_ENV=production tailwindcss -i src/app/globals.css -o src/app/tailwind.css -m",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -27,6 +25,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.2.2",
     "tailwindcss": "^4",

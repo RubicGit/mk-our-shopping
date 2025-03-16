@@ -13,12 +13,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   return (
     <html lang="en">
-      <head>
-        {/* ...existing code... */}
-      </head>
+      <head>{/* ...existing code... */}</head>
       <body className="antialiased flex flex-col gap-20 bg-bg dark:bg-bg-dark">
         <ThemeProvider>
           <NavBar loggedIn={false} />

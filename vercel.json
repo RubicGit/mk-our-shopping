@@ -1,0 +1,5 @@
+{
+  "buildCommand": "next build",
+  "installCommand": "npm install --force && npm install -D autoprefixer",
+  "framework": "nextjs"
+}
